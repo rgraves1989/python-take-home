@@ -25,4 +25,5 @@ urlpatterns = [
     path('google_login_callback', rest_api_views.google_login_callback),
     path('logout', rest_api_views.user_logout),
     path('save_user_repo', rest_api_views.save_user_repo)
+    path('payload_receive', rest_api_views.github_payload_receive)
 ]
