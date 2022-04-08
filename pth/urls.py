@@ -27,3 +27,5 @@ urlpatterns = [
     path('save_user_repo', rest_api_views.save_user_repo)
     path('payload_receive', rest_api_views.github_payload_receive)
 ]
+
+#dumb
